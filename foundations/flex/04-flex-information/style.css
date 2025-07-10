@@ -2,6 +2,21 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.everything {
+  /* this could also be in body*/
+  display: flex;
+  margin: 32px;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  gap: 52px;
+  width: 200px;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
 img {
   width: 100px;
   height: 100px;
