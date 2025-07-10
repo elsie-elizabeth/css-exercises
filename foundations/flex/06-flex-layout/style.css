@@ -29,6 +29,7 @@ input {
 
 .content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 12px;
@@ -58,4 +59,9 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.left-links, .right-links {
+  display: flex;
+  flex-direction: row;
 }
