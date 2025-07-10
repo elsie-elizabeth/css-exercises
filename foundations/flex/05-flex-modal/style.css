@@ -73,7 +73,7 @@ button.cancel {
 
 .text {
   display: flex;
-  direction: vertical;
+  direction: column;
   justify-content: space-evenly;
   font-size: 12px;
 }
