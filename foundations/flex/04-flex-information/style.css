@@ -6,7 +6,8 @@ body {
   /* this could also be in body*/
   display: flex;
   margin: 32px;
-  justify-content: center;
+  flex-direction: vertical;
+  align-items: center;
 }
 
 .images {
